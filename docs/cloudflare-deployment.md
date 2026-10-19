@@ -11,11 +11,11 @@ npx wrangler login
 npx wrangler pages deploy dist --project-name m82-cluster-explorer --branch main
 ```
 
-The website is available at https://m82-cluster-explorer.pages.dev/ . A GitHub push or release does not trigger a new deployment automatically in this setup.
+The live website is available at https://m82-cluster-explorer.onew.dev/ . The default Cloudflare URL remains https://m82-cluster-explorer.pages.dev/ . A GitHub push or release does not trigger a new deployment automatically in this setup.
 
 ## Custom domain
 
-Intended domain: `m82-cluster-explorer.onew.dev`.
+Custom domain: `m82-cluster-explorer.onew.dev`.
 
 The domain is registered in the project's Custom domains settings. DNS must contain a CNAME named `m82-cluster-explorer` pointing to `m82-cluster-explorer.pages.dev`. Wait for the Pages custom domain status and HTTPS certificate to become active before distributing the custom URL as the live demo.
 

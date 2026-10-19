@@ -6,7 +6,8 @@
 
 ## Live Demo
 
-- [เปิด M82 Cluster Explorer บน Cloudflare](https://m82-cluster-explorer.pages.dev/?method=2d&cluster=1075)
+- **[เปิด Live Demo](https://m82-cluster-explorer.onew.dev/?method=2d&cluster=1075)**
+- [Cloudflare Pages URL](https://m82-cluster-explorer.pages.dev/?method=2d&cluster=1075)
 
 เว็บไซต์ deploy ด้วย Cloudflare Pages แบบ Direct Upload จาก `dist/` การ push GitHub อย่างเดียวจะยังไม่ deploy เว็บใหม่
 
