@@ -11,6 +11,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 .openai/
+.wrangler/
 
 # Raw research inputs and archives; generated web assets in dist/ ARE tracked
 *.fits

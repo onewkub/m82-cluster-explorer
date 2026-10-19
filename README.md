@@ -4,6 +4,12 @@
 
 ใช้ HTML/CSS/JavaScript และ WebGL ไม่มีขั้นตอน npm install หรือ build ข้อมูลพร้อมแสดงผลรวมอยู่ใน `dist/` แล้ว ไม่ต้องมี Notebook, CSV ต้นทาง หรือ FITS เพื่อเปิดเว็บ
 
+## Live Demo
+
+- [เปิด M82 Cluster Explorer บน Cloudflare](https://m82-cluster-explorer.pages.dev/?method=2d&cluster=1075)
+
+เว็บไซต์ deploy ด้วย Cloudflare Pages แบบ Direct Upload จาก `dist/` การ push GitHub อย่างเดียวจะยังไม่ deploy เว็บใหม่
+
 ## เปิดในเครื่อง
 
 ต้องมี Python 3 (แนะนำ 3.10 ขึ้นไป):
@@ -45,16 +51,17 @@ DATA_SOURCES.md              แหล่งข้อมูลและขอบ
 
 `dist/` เป็นโค้ดเว็บและข้อมูลที่ต้องติดตามด้วย Git ไม่ใช่ build cache ไฟล์ใหญ่สุดประมาณ 11 MB จึงไม่ได้ตั้ง Git LFS
 
-## Push ขึ้น GitHub
+## GitHub และการเผยแพร่
 
-repo นี้มี branch `main` และ commit เริ่มต้นแล้ว สร้าง repository ว่างบน GitHub โดยไม่เพิ่ม README หรือ .gitignore จากนั้นรันในโฟลเดอร์นี้ โดยเปลี่ยน OWNER และ REPOSITORY:
+Repository: [onewkub/m82-cluster-explorer](https://github.com/onewkub/m82-cluster-explorer)
+
+เมื่อ commit การเปลี่ยนแปลงแล้ว อัปเดต repo ด้วย:
 
 ```sh
-git remote add origin https://github.com/OWNER/REPOSITORY.git
-git push -u origin main
+git push origin main
 ```
 
-ยังไม่ได้ตั้ง remote หรือ push จากเครื่องนี้ และไม่ได้เปลี่ยนการเข้าถึงเว็บไซต์เดิม
+ดาวน์โหลด ZIP พร้อม deploy ได้จาก [GitHub Releases](https://github.com/onewkub/m82-cluster-explorer/releases/latest) ส่วนการอัปเดต Cloudflare ทำแยกด้วยคำสั่งใน [คู่มือ deploy](docs/cloudflare-deployment.md)
 
 ## นำเว็บไปโฮสต์
 
