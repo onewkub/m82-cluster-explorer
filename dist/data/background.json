@@ -1,0 +1,65 @@
+{
+  "image": "hst-f435w.png",
+  "width": 4752,
+  "height": 4689,
+  "bounds": [
+    -339.15,
+    373.65,
+    -352.65,
+    350.7
+  ],
+  "pixelArcsec": 0.15,
+  "filter": "F435W",
+  "label": "Hubble / ACS F435W",
+  "credit": "HST ACS / ANGST reference images, program 10776; six fields from local FITS",
+  "description": "Single-band monochrome mosaic; not an RGB NASA publicity image.",
+  "stretch": {
+    "type": "asinh",
+    "lowCountsPerSecond": 0.011389671489596367,
+    "highCountsPerSecond": 1.243455085754394,
+    "softening": 0.04312228949926792
+  },
+  "registration": "Shared TAN plane; linear WCS of drizzled image; stale SIP removed.",
+  "validation": {
+    "cataloguePixelOrigin": 1,
+    "maxResidualArcsec": 0.016616713465696462
+  },
+  "sources": [
+    {
+      "file": "hlsp_angst_hst_acs-wfc_10776-m82-pos1_f435w_v1_ref.fits",
+      "sha256": "3d63803001ce0dcb0a927e3a42a7c414ff231c63e545528a3166f2597b1c0745",
+      "medianResidualArcsec": 0.009109377294034054,
+      "maxResidualArcsec": 0.016328535698076227
+    },
+    {
+      "file": "hlsp_angst_hst_acs-wfc_10776-m82-pos2_f435w_v1_ref.fits",
+      "sha256": "86fa042566629a4408149ffa3bf291b22f59ec79026e4264994a6c9942c6c006",
+      "medianResidualArcsec": 0.009144151469687662,
+      "maxResidualArcsec": 0.016616713465696462
+    },
+    {
+      "file": "hlsp_angst_hst_acs-wfc_10776-m82-pos3_f435w_v1_ref.fits",
+      "sha256": "3a60b6652032cffee0955d2f71c7bd0ad7320fa29a0f0b140d0f8c344d1d2d12",
+      "medianResidualArcsec": 0.009293877192162556,
+      "maxResidualArcsec": 0.016510869867667033
+    },
+    {
+      "file": "hlsp_angst_hst_acs-wfc_10776-m82-pos4_f435w_v1_ref.fits",
+      "sha256": "42a9bbfa694983fbc2cea3f923602582120e71d8f528807765ff489b86903df4",
+      "medianResidualArcsec": 0.009024601994780026,
+      "maxResidualArcsec": 0.01609583838775628
+    },
+    {
+      "file": "hlsp_angst_hst_acs-wfc_10776-m82-pos5_f435w_v1_ref.fits",
+      "sha256": "f4e26d55968ceef46c7f01771bfee23ecd424fba6e50643c66ee151267ab4981",
+      "medianResidualArcsec": 0.009139203513967223,
+      "maxResidualArcsec": 0.016064812403433208
+    },
+    {
+      "file": "hlsp_angst_hst_acs-wfc_10776-m82-pos6_f435w_v1_ref.fits",
+      "sha256": "0221199d6c3c59b0feaba99f635baea5b3f3dcf1bd7816c507a878f5aa59bec7",
+      "medianResidualArcsec": 0.00903497674292494,
+      "maxResidualArcsec": 0.016454548160797805
+    }
+  ]
+}

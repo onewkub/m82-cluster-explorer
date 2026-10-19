@@ -1,0 +1,6 @@
+# Optional: only for rebuilding data/background, not for serving the website.
+numpy
+pandas
+scipy
+astropy
+Pillow
